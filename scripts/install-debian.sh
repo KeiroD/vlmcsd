@@ -36,7 +36,7 @@ wget -q https://wind4.github.io/vlmcsd/binaries/Linux/intel/static/vlmcsd-x86-mu
 check_result $? 'Download vlmcsd failed.'
 
 echo 'Downloading startup script ...'
-wget -q https://wind4.github.io/vlmcsd/scripts/init.d/vlmcsd-rhel -O /etc/init.d/vlmcsd
+wget -q https://wind4.github.io/vlmcsd/scripts/init.d/vlmcsd-debian -O /etc/init.d/vlmcsd
 check_result $? 'Download startup script failed.'
 
 echo 'Configuring deamon ...'
